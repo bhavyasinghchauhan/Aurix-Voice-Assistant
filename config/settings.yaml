@@ -1,0 +1,30 @@
+# AURIX Configuration
+wake_word: hey_aurix
+
+# Ollama runs locally — no API key needed.
+
+# openWakeWord config
+# Built-in models: aurix (uses hey_jarvis), jarvis, alexa, mycroft, rhasspy.
+# To use a custom .onnx/.tflite model, set wakeword_model_path to its full path.
+wakeword_model_path: ""
+wakeword_threshold: 0.5
+
+# Voice
+stt_language: en-US
+stt_mic_index: 4
+tts_rate: 175
+tts_volume: 0.9
+
+# Memory
+graph_path: data/graph.pkl
+max_context_nodes: 10
+similarity_threshold: 0.7
+shortcut_frequency_threshold: 3
+
+# GUI
+gui_enabled: true
+fps: 60
+
+# Logging
+log_level: INFO
+log_path: logs/aurix.log

@@ -1,0 +1,10 @@
+{
+  "default": "jarvis",
+  "available": [
+    "jarvis",
+    "computer",
+    "alexa",
+    "hey google"
+  ],
+  "custom_models": {}
+}

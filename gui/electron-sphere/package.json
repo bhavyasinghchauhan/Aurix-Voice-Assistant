@@ -1,0 +1,18 @@
+{
+  "name": "aurix-sphere",
+  "version": "1.0.0",
+  "description": "AURIX transparent desktop overlay with 3D state-reactive sphere",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": ["aurix", "visualization", "overlay", "transparent"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0"
+  }
+}

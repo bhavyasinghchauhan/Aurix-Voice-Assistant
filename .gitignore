@@ -1,0 +1,50 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Credentials & Tokens (CRITICAL)
+config/gmail_credentials.json
+config/gmail_token.json
+config/token.json
+.env
+*.key
+*.pem
+
+# User Data
+data/
+notes/
+config/hud_settings.json
+
+# Cache
+~/.aurix/
+.cache/
+
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node
+gui/electron-sphere/node_modules/
+gui/electron-sphere/package-lock.json
+npm-debug.log*

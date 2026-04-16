@@ -1,0 +1,172 @@
+{
+  "tools": [
+    {
+      "name": "open_application",
+      "module": "tools.app_control",
+      "function": "open_application",
+      "description": "Open or switch to an application",
+      "destructive": false
+    },
+    {
+      "name": "close_application",
+      "module": "tools.app_control",
+      "function": "close_application",
+      "description": "Close a running application",
+      "destructive": false
+    },
+    {
+      "name": "search_youtube",
+      "module": "tools.browser_automation",
+      "function": "search_youtube",
+      "description": "Search and play a video on YouTube",
+      "destructive": false
+    },
+    {
+      "name": "control_media",
+      "module": "tools.media_control",
+      "function": "control_media",
+      "description": "Control media playback",
+      "destructive": false
+    },
+    {
+      "name": "file_search",
+      "module": "tools.file_system",
+      "function": "file_search",
+      "description": "Search for files on disk",
+      "destructive": false
+    },
+    {
+      "name": "delete_file",
+      "module": "tools.file_system",
+      "function": "delete_file",
+      "description": "Delete a file from disk",
+      "destructive": true
+    },
+    {
+      "name": "create_reminder",
+      "module": "tools.calendar_reminders",
+      "function": "create_reminder",
+      "description": "Create a reminder or calendar event",
+      "destructive": false
+    },
+    {
+      "name": "get_weather",
+      "module": "tools.weather",
+      "function": "get_weather",
+      "description": "Get current weather for a location (wttr.in, no key needed)",
+      "destructive": false
+    },
+    {
+      "name": "get_system_info",
+      "module": "tools.system_info",
+      "function": "get_system_info",
+      "description": "Get CPU, RAM, disk usage and battery level",
+      "destructive": false
+    },
+    {
+      "name": "web_search",
+      "module": "tools.web_search",
+      "function": "web_search",
+      "description": "Search the web and return top result summaries",
+      "destructive": false
+    },
+    {
+      "name": "create_note",
+      "module": "tools.notes",
+      "function": "create_note",
+      "description": "Save a quick text note to disk",
+      "destructive": false
+    },
+    {
+      "name": "read_note",
+      "module": "tools.notes",
+      "function": "read_note",
+      "description": "Read a specific note by filename or keyword",
+      "destructive": false
+    },
+    {
+      "name": "list_notes",
+      "module": "tools.notes",
+      "function": "list_notes",
+      "description": "List all saved notes",
+      "destructive": false
+    },
+    {
+      "name": "set_timer",
+      "module": "tools.timer",
+      "function": "set_timer",
+      "description": "Set a countdown timer with audio alert",
+      "destructive": false
+    },
+    {
+      "name": "cancel_timer",
+      "module": "tools.timer",
+      "function": "cancel_timer",
+      "description": "Cancel an active timer by name",
+      "destructive": false
+    },
+    {
+      "name": "start_recording",
+      "module": "tools.macro",
+      "function": "start_recording",
+      "description": "Start recording mouse and keyboard actions as a macro",
+      "destructive": false
+    },
+    {
+      "name": "stop_recording",
+      "module": "tools.macro",
+      "function": "stop_recording",
+      "description": "Stop recording and save the macro",
+      "destructive": false
+    },
+    {
+      "name": "play_macro",
+      "module": "tools.macro",
+      "function": "play_macro",
+      "description": "Replay a saved macro by name",
+      "destructive": false
+    },
+    {
+      "name": "list_macros",
+      "module": "tools.macro",
+      "function": "list_macros",
+      "description": "List all saved macros",
+      "destructive": false
+    },
+    {
+      "name": "delete_macro",
+      "module": "tools.macro",
+      "function": "delete_macro",
+      "description": "Delete a saved macro by name",
+      "destructive": true
+    },
+    {
+      "name": "check_unread_count",
+      "module": "tools.gmail",
+      "function": "check_unread_count",
+      "description": "Check how many unread emails are in the inbox",
+      "destructive": false
+    },
+    {
+      "name": "get_recent_emails",
+      "module": "tools.gmail",
+      "function": "get_recent_emails",
+      "description": "Get summaries of recent emails (sender, subject, snippet)",
+      "destructive": false
+    },
+    {
+      "name": "send_email",
+      "module": "tools.gmail",
+      "function": "send_email",
+      "description": "Send an email via Gmail",
+      "destructive": false
+    },
+    {
+      "name": "search_emails",
+      "module": "tools.gmail",
+      "function": "search_emails",
+      "description": "Search emails by keyword or Gmail search syntax",
+      "destructive": false
+    }
+  ]
+}

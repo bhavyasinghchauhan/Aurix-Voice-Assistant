@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ':*)",
+      "Bash(ls venv/Scripts/python.exe)",
+      "Bash(venv/Scripts/python.exe -c \"import anthropic; print\\('ok'\\)\")",
+      "Bash(python test_setup.py)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('test_llm.py'\\).read\\(\\)\\); print\\('syntax OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('test_voice_only.py'\\).read\\(\\)\\); print\\('syntax OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('test_mic_raw.py'\\).read\\(\\)\\); print\\('syntax OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('voice/text_to_speech.py'\\).read\\(\\)\\); print\\('syntax OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('llm/claude_interface.py'\\).read\\(\\)\\); print\\('claude_interface.py OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('llm/tool_parser.py'\\).read\\(\\)\\); print\\('tool_parser.py OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('core/engine.py'\\).read\\(\\)\\); print\\('engine.py OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('main.py'\\).read\\(\\)\\); print\\('main.py OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('test_llm.py'\\).read\\(\\)\\); print\\('test_llm.py OK'\\)\")",
+      "Bash(python:*)",
+      "Bash(echo \"exit:$?\")",
+      "Bash(ollama pull:*)"
+    ]
+  }
+}

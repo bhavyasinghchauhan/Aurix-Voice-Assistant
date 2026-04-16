@@ -1,0 +1,49 @@
+# Voice Processing
+# openWakeWord: actively maintained, free, offline, works on Python 3.10+.
+# Models download automatically on first run (~10 MB).
+openwakeword
+speechrecognition
+# gTTS replaces pyttsx3 (which hangs on Windows). Requires internet.
+# Playback uses pygame.mixer (already in the GUI section below).
+gtts
+pyaudio
+
+# Graph & Embeddings
+networkx
+sentence-transformers
+numpy
+
+# GUI
+pygame
+
+# OS Automation
+psutil
+pyautogui
+keyboard
+mouse
+selenium
+
+# Windows-specific (foreground window tracking, OS hooks)
+pygetwindow ; sys_platform == "win32"
+pywin32 ; sys_platform == "win32"
+
+# Config / env
+python-dotenv
+pyyaml
+
+# API (local LLM)
+ollama
+
+# Web / HTTP
+requests
+beautifulsoup4
+websocket-client
+
+# Gmail API
+google-auth
+google-auth-oauthlib
+google-api-python-client
+
+# Optional
+elevenlabs
+chromadb
